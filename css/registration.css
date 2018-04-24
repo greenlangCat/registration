@@ -1,0 +1,180 @@
+.pagatation{
+	background: #FACD89;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.join-time,.join-pattern{
+	background: #fff;
+	padding:5px;
+	text-align: center;
+}
+.join-time .panel,.join-pattern .panel{
+	margin-bottom: 0 !important;
+}
+.join-time .panel-heading{
+	background: #FFF799;
+	padding: 0 !important;
+}
+.join-time .panel-body{
+	height: 76px;
+}
+.join-pattern .panel-heading{
+	padding:0 !important;
+}
+.join-pattern .panel{
+	background: #B5E6FF;
+	padding: 0 !important;
+}
+.join-time .panel-heading span{
+	color: #95520d;
+	font-size: 23px;
+	font-weight:bold;
+	line-height: 60px;
+}
+.join-pattern .panel-heading span{
+	color: #0062B9;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 60px;
+}
+.join-time .panel-body{
+	background: #FFF45C;
+}
+.join-time .panel-body span{
+	color:#bd5e15;
+	font-size: 23px;
+	font-weight: bold;
+}
+.course-list .course-item .metas .eyes{
+	margin-left: 10px;
+}
+.sign-up{
+	font-size: 18px !important;
+}
+.rules{
+	background:url(files/rate/join-rules-bg.png) repeat-y center top;
+	padding-bottom:60px;
+	padding-top: 40px;
+}
+.rules-content{
+	margin-bottom:20px;
+}
+.rules-content .row:first-child{
+	margin-bottom:15px;
+}
+.text-title{
+	margin-bottom: 40px;
+}
+.text-title h5{
+	font-size: 32px;
+	color:#fff;
+}
+.rules .subtitle{
+	color: #fff;
+	font-size: 16px;
+}
+
+.rules .line{
+	width:60px;
+	height:2px;
+	background: #fff;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.preliminary-works .line{
+	width:60px;
+	height:2px;
+	margin:0 auto;
+	margin-top: 10px;
+	background: #FACD89;
+}
+.preliminary-time{
+	background: #556FB5;
+	padding: 20px;
+	color: #fff;
+}
+.preliminary-time img,.registration-way img,.rule-plan img{
+	margin:0 auto;
+}
+
+.sponsorship{
+	background: #8957A1;
+	padding: 20px;
+	color: #fff;
+	/* min-height: 313px; */
+}
+
+.education{
+	background: #448ACA;
+	padding: 13px 0 1px 0;
+}
+.organizer{
+	background: #CCE198;
+	margin-top: 10px;
+	color: #191C12;
+}
+.registration-way{
+	background: #32B16C;
+	padding: 20px;
+	color: #fff;
+}
+.rule-plan{
+	background: #EC6941;
+	padding: 15px;
+	color: #fff;
+}
+.rule-four{
+	padding:10px 30px;
+}
+.preliminary-works{
+	background: url(files/rate/gallery.jpg) no-repeat center top;
+	padding-bottom:60px;
+	padding-top: 40px;
+}	
+.preliminary-works .text-title,.preliminary-works .text-title h5{
+	color: #1E4C76;
+}
+.course-list .course-item .course-img{
+	position:relative;
+	overflow: hidden;
+	border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.rules-content .row{
+    overflow: hidden;
+}
+.preliminary-time,.sponsorship,.registration-way
+{
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+}
+
+@media (max-width: 767px){
+	.join-time .panel-heading span,.join-pattern .panel-heading span,.join-time .panel-body span{
+		font-size:16px;
+	}
+	.join-pattern .panel-body{
+		height: 74px;
+	}
+	.preliminary-time,.sponsorship,.registration-way{
+	    margin-bottom: 15px;
+	    padding-bottom: 10px;
+	}
+	.rule-four{
+		text-align: center;
+	}
+	.rules .subtitle{
+		font-size: 14px
+	}
+	h3,h5{
+		font-size: 15px;
+	}
+	.text-title h5{
+		font-size: 16px;
+	}
+	.sign-up{
+		font-size: 14px !important;
+	}
+}

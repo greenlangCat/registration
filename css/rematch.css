@@ -1,0 +1,24 @@
+.rematch-rules{
+	background: url(images/rematch-rule.jpg) repeat-y center top !important;
+}
+
+.preliminary-time, .sponsorship, .registration-way{
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.sponsorship{
+	height: 265px;
+	padding-top: 63px;
+}
+.rule-plan{
+	background: #009E96;
+}
+.preliminary-works{
+	background: url(images/rematch-collection.jpg) no-repeat center top;
+}	
+@media (max-width: 1023px){
+	.sponsorship{
+		height: 340px;
+	}
+}
