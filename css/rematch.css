@@ -1,5 +1,5 @@
 .rematch-rules{
-	background: url(images/rematch-rule.jpg) repeat-y center top !important;
+	background: url(../files/rate/rematch-rule.jpg) repeat-y center top !important;
 }
 
 .preliminary-time, .sponsorship, .registration-way{
@@ -15,7 +15,7 @@
 	background: #009E96;
 }
 .preliminary-works{
-	background: url(images/rematch-collection.jpg) no-repeat center top;
+	background: url(../files/rate/rematch-collection.jpg) no-repeat center top;
 }	
 @media (max-width: 1023px){
 	.sponsorship{
