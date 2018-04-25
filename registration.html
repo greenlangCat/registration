@@ -41,7 +41,7 @@
     		  	      <img src="files/rate/registration-target.png" alt="报名入口" class="avatar-md">
     		  	    </div>
 						    <div class="panel-body text-center">
-						      <a href="" class="btn btn-primary btn-lg sign-up">点我报名</a>
+						      <a class="btn btn-primary btn-lg sign-up" data-toggle="modal" href="#myModal">点我报名</a>
 						    </div>
 							</div>
     		    </div>    		  	
@@ -297,7 +297,7 @@
 	  			</div>
 	  		</div>
 	  		<div class="section-more-btn">
-		      <a href="/collection.html" class="btn btn-warning btn-lg">
+		      <a href="collection.html" class="btn btn-warning btn-lg">
 		        查看全部比赛作品
 		      </a>
 		    </div>
@@ -319,8 +319,67 @@
 		    </div>
 		  </div>
 		</footer>
-    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+    	<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+							&times;
+						</button>
+						<h4 class="modal-title text-center" id="myModalLabel">
+							报名入口
+						</h4>
+					</div>
+				 <form  class="ajax registration-form form-horizontal" method="post" action="test.php">
+						<div class="modal-body">							
+							<div class="form-group">
+								<div class="col-md-6 col-xs-12">
+								  <label for="firstname" class="col-sm-12">姓名：</label>
+									<input type="text" class="form-control col-sm-12" id="firstname" placeholder="请输入名字">				    
+							  </div>
+								<div class="col-md-6 col-xs-12">
+									<label for="age" class="col-md-12">年龄：</label>
+							   	<input type="text" id="age" placeholder="参赛者年龄" class="form-control col-md-12">	
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-6 col-xs-12">
+								  <label for="lastname" class="col-sm-12">学校：</label>
+							    <input type="text" id="lastname" placeholder="学校" class="form-control col-sm-12">			
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<label for="age" class="col-sm-12">指导老师：</label>
+							    <input type="text" id="age" placeholder="指导老师" class="form-control col-sm-12">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-6 col-sm-12">
+									<label class="control-label">参赛组别：</label>
+								  <span>
+								    <input type="radio" id="category1" value="primary-school" name="category">小学		
+							    </span>
+								 	<span>
+								 		<input type="radio" id="category2" value="junior-school" name="category">
+								 		初中
+								 	</span>
+								</div>
+								<div class="col-md-6 col-sm-12">
+									<input type='checkbox' id='checkbox1' checked disabled> 
+									<label for='checkbox1'>缴纳800的教育费用</label> 
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-primary btn-lg" data-loading-text="正在创建订单...">
+								提交并缴纳参赛费用
+							</button>
+						</div>
+					</form>	
+				</div>
+			</div>
+    </div>
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- 包括所有已编译的插件 -->
  </body>
 </html>
